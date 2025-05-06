@@ -3,7 +3,7 @@ import sys
 import asyncio
 from typing import List
 from .docs_manager import DocsManager
-from .async_logger import AsyncLogger
+from ..async_logger import AsyncLogger
 
 logger = AsyncLogger(verbose=True)
 docs_manager = DocsManager(logger)

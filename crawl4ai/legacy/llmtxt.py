@@ -12,7 +12,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from litellm import batch_completion
-from .async_logger import AsyncLogger
+from ..async_logger import AsyncLogger
 import litellm
 import pickle
 import hashlib  # <--- ADDED for file-hash

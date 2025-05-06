@@ -2,7 +2,7 @@ import requests
 import shutil
 from pathlib import Path
 from crawl4ai.async_logger import AsyncLogger
-from crawl4ai.llmtxt import AsyncLLMTextManager
+from crawl4ai.legacy.llmtxt import AsyncLLMTextManager
 
 
 class DocsManager:

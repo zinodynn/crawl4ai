@@ -1,7 +1,7 @@
 # version_manager.py
 from pathlib import Path
 from packaging import version
-from . import __version__
+from .. import __version__
 
 
 class VersionManager:

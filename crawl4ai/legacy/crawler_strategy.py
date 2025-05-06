@@ -10,7 +10,7 @@ from selenium.common.exceptions import InvalidArgumentException, WebDriverExcept
 # from webdriver_manager.chrome import ChromeDriverManager
 # from urllib3.exceptions import MaxRetryError
 
-from .config import *
+from ..config import *
 import logging, time
 import base64
 from PIL import Image, ImageDraw, ImageFont
@@ -19,7 +19,7 @@ from typing import Callable
 import requests
 import os
 from pathlib import Path
-from .utils import *
+from ..utils import *
 
 logger = logging.getLogger("selenium.webdriver.remote.remote_connection")
 logger.setLevel(logging.WARNING)
